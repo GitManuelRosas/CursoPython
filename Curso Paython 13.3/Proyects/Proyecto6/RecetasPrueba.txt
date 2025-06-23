@@ -1,0 +1,64 @@
+from os import system
+
+def inicio():
+    system('cls')
+    print('*' * 50)
+    print('*' * 5 + " Bienvenido al administrador de recetas " + '*' * 5)
+    print('*' * 50)
+    print('\n')
+    #print(f"Las recetas se encuentran en {mi_ruta}")
+    #print(f"Total recetas: {contar_recetas(mi_ruta)}")
+
+    eleccion_menu = 'x'
+    while not eleccion_menu.isnumeric() or int(eleccion_menu) not in range(1,7):
+        print("Elige una opcion:")
+        print('''
+        [1] - Leer receta
+        [2] - Crear receta nueva
+        [3] - Crear categoria nueva
+        [4] - Eliminar receta
+        [5] - Eliminar categoria
+        [6] - Salir del programa''')
+        eleccion_menu = input()
+
+    return int(eleccion_menu)
+
+finalizar_programa = False
+
+while not finalizar_programa:
+    menu = inicio()
+
+    if menu == 1:
+        #mis_categorias = mostrar_categorias(mi_ruta)
+        #mi_categoria = elegir_categoria(mis_categorias)
+        #mis_recetas = mostrar_recetas(mi_categoria)
+        #mi_receta = elegir_recetas(mis_recetas)
+        #leer_receta(mi_receta)
+        #volver_inicio()
+        print("Entre opcion 1")
+    elif menu == 2:
+        #mis_categorias = mostrar_categorias(mi_ruta)
+        #mi_categoria = elegir_categoria(mis_categorias)
+        #crear_receta(mi_categoria)
+        #volver_inicio()
+        print("Entre opcion 2")
+    elif menu == 3:
+        #crear_categoria(mi_ruta)
+        #volver_inicio()
+        print("Entre opcion 3")
+    elif menu == 4:
+        #mis_categorias = mostrar_categorias(mi_ruta)
+        #mi_categoria = elegir_categoria(mis_categorias)
+        #mis_recetas = mostrar_recetas(mi_categoria)
+        #mi_receta = elegir_recetas(mis_recetas)
+        #eliminar_receta(mi_receta)
+        #volver_inicio()
+        print("Entre opcion 4")
+    elif menu == 5:
+        #mis_categorias = mostrar_categorias(mi_ruta)
+        #mi_categoria = elegir_categoria(mis_categorias)
+        #eliminar_categoria(mi_categoria)
+        #volver_inicio()
+        print("Entre opcion 5")
+    elif menu == 6:
+        finalizar_programa = True

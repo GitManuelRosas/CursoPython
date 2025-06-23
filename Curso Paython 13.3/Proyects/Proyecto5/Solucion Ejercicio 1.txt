@@ -1,0 +1,47 @@
+def numero_intermedio(num1, num2, num3):
+   lista = [num1, num2, num3]
+   lista.sort()
+   return lista[1]
+
+def numero_mayor(num1, num2):
+    if num1 > num2:
+        return num1
+    else:
+        return num2
+def numero_menor(num1, num2):
+    if num1 < num2:
+        return num1
+    else:
+        return num2
+
+
+def devolver_distintos(num1,num2,num3):
+    total = num1 + num2 + num3
+    print(f"el total {total} ")
+    mayor1 = numero_mayor(num1,num2)
+    
+    mayor2 = numero_mayor(mayor1,num3)
+    menor1 = numero_menor(num1,num2)
+    menor2 = numero_menor(menor1, num3)
+    regreso = 0
+    intermedio = numero_intermedio(num1,num2,num3)
+
+    print(f"el intermedio {intermedio} ")
+    if total > 15:
+        print(f"El numero mayor es {mayor2}")
+        regreso = mayor2
+    elif total < 10:
+        print(f"El numero menor es {menor2}")
+        regreso = menor2
+    else:
+        print(f"El numero intermedio es {intermedio}")
+        regreso = intermedio
+
+    return regreso
+
+'''numerofinal= devolver_distintos(8,5,10)'''
+'''numerofinal1= devolver_distintos(3,2,4)'''
+numerofinal2= devolver_distintos(7,2,6)
+'''print(numerofinal)'''
+'''print(numerofinal1)'''
+print(numerofinal2)

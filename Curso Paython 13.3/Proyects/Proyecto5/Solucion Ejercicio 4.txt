@@ -1,0 +1,16 @@
+def contar_primos(num):
+    valor=0
+    mi_set = {''}
+    lista_numeros = list(range(0, num, 1))
+
+    for numero in lista_numeros:
+        if numero % 2 != 0:
+            mi_set.add(numero)
+            valor = valor + 1
+
+    mi_set.remove('')
+    mi_lista = list(mi_set)
+    print(mi_lista)
+    print(f"el numero de primos es {valor}")
+
+contar_primos(15)

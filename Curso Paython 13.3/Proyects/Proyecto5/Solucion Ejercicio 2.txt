@@ -1,0 +1,19 @@
+def imprimirpalabra(cadena):
+    lista = cadena.upper()
+
+
+    mi_set = {''}
+    for letra in lista:
+        mi_set.add(letra)
+        mi_lista = [letra]
+
+    mi_set.remove('')
+    mi_lista = list(mi_set)
+    mi_lista.sort()
+    print(mi_lista)
+
+
+
+'''cadenaresgresp=imprimirpalabra('UnaPalabra')
+print(cadenaresgresp)'''
+imprimirpalabra('entreaxtenido')

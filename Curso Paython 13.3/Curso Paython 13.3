@@ -1,0 +1,1631 @@
+https://colab.research.google.com/drive/1WS7yZX_NdTyI7k1OIreBjDVCMzjbHciF?usp=sharing
+Este es el del 3
+https://colab.research.google.com/drive/1V7Nq5K_o4b7cU047F2ORob-hTJbOvGp3?usp=sharing
+Este es el del 4 
+https://colab.research.google.com/drive/1BFHMEWosEEup9pewOnGQF_xh9R_wc41m?usp=sharing
+Curso Paython
+https://www.python.org/
+
+https://docs.python.org/3.13/tutorial/index.html
+https://docs.python.org/3.13/using/windows.html
+
+
+
+Práctica con Variables 1
+
+nombre = "Tony Soprano"
+edad = 51
+Práctica con Variables 2
+
+nombre = "Julia"
+apellido = "Roberts"
+nombrecompleto = nombre + " " + apellido
+Práctica con Variables 3
+
+curso = "Python"
+9Práctica con Integers
+
+num_entero = 7
+print(type(num_entero))
+Práctica con Floats
+
+num_decimal = 7.5
+print(type(num_decimal))
+Práctica con Tipos de Datos Numéricos
+
+num1 = 7.5
+num2 = 2.5
+print(type(num1+num2))
+Práctica con Conversiones 1
+
+num1 = 7.5
+ 
+num1 = int(num1)
+ 
+print(type(num1))
+Práctica con Conversiones 2
+
+num2 = 10
+ 
+num2 = float(num2)
+ 
+print(type(num2))
+Práctica con Conversiones 3
+
+num1 = "7.5"
+num2 = "10"
+ 
+print(float(num1) + float(num2))
+Práctica Formatear Cadenas 1
+
+nombre_asociado = "Jesse Pinkman"
+numero_asociado = 399058
+ 
+print(f'Estimado/a {nombre_asociado}, su número de asociado es: {numero_asociado}')
+Práctica Formatear Cadenas 2
+
+puntos_nuevos = 350
+puntos_totales = 1225
+ 
+print(f'Has ganado {puntos_nuevos} puntos! En total, acumulas {puntos_totales} puntos')
+Práctica Formatear Cadenas 3
+
+puntos_anteriores = 875
+puntos_nuevos = 350
+ 
+print(f'Has ganado {puntos_nuevos} puntos! En total, acumulas {puntos_anteriores + puntos_nuevos} puntos')
+Práctica Operadores Matemáticos 1
+
+num1 = 874
+num2 = 27
+ 
+print(num1//num2)
+Práctica Operadores Matemáticos 2
+
+num1 = 456
+num2 = 33
+ 
+print(num1%num2)
+Práctica Operadores Matemáticos 3
+
+print(783**0.5)
+Práctica Redondeo 1
+
+print(round(10/3,2))
+Práctica Redondeo 2
+
+valor = 10.676767
+ 
+print(round(valor))
+Práctica Redondeo 3
+
+print(round(5**0.5,4))
+
+
+---
+Dia 3
+Práctica Método Index() 1
+
+palabra = "ordenador"
+ 
+print(palabra[4])
+Práctica Método Index() 2
+
+frase = "En teoría, la teoría y la práctica son los mismos. En la práctica, no lo son."
+ 
+print(frase.index("práctica"))
+Práctica Método Index() 3
+
+frase = "En teoría, la teoría y la práctica son los mismos. En la práctica, no lo son."
+ 
+print(frase.rindex("práctica"))
+Práctica Sub-Strings 1
+
+frase = "Controlar la complejidad es la esencia de la programación"
+ 
+print(frase[:9])
+Práctica Sub-Strings 2
+
+frase = "Nunca confíes en un ordenador que no puedas lanzar por una ventana"
+ 
+print(frase[8::3])
+Práctica Sub-Strings 3
+
+frase = "Es genial trabajar con ordenadores. No discuten, lo recuerdan todo y no se beben tu cerveza"
+ 
+print(frase[::-1])
+Práctica Métodos de String 1
+
+frase = "Especialmente en las comunicaciones electrónicas, la escritura enteramente en mayúsculas equivale a gritar."
+ 
+print(frase.upper())
+Práctica Métodos de String 2
+
+lista_palabras = ["La","legibilidad","cuenta."]
+ 
+frase = " ".join(lista_palabras)
+ 
+print(frase)
+Práctica Métodos de String 3
+
+frase = "Si la implementación es difícil de explicar, puede que sea una mala idea."
+ 
+print(frase.replace("difícil", "fácil").replace("mala","buena"))
+Práctica Propiedades de Strings 1
+
+palabra = "Repetición"
+ 
+print(palabra * 15)
+Práctica Propiedades de Strings 2
+
+haiku = '''
+Tierra mojada
+mis recuerdos de viaje,
+entre las lluvias
+'''
+ 
+print("agua" not in haiku)
+Práctica Propiedades de Strings 3
+
+palabra = "electroencefalografista"
+ 
+print(len(palabra))
+Práctica Listas 1
+
+mi_lista = ["uno", 2, 3.33, "four", True]
+Práctica Listas 2
+
+medios_transporte = ["avión", "auto", "barco", "bicicleta"]
+medios_transporte.append("motocicleta")
+Práctica Listas 3
+
+frutas = ["manzana", "banana", "mango", "cereza", "sandía"]
+ 
+eliminado = frutas.pop(2)
+Práctica Diccionarios 1
+
+mi_dic = {"nombre":"Karen", "apellido":"Jurgens", "edad":35, "ocupacion":"Periodista"}
+Práctica Diccionarios 2
+
+mi_dict = {"valores_1":{"v1":3,"v2":6},"puntos":{"points1":9,"points2":[10,300,15]}}
+print(mi_dict["puntos"]["points2"][1])
+Práctica Diccionarios 3
+
+mi_dic = {"nombre":"Karen", "apellido":"Jurgens", "edad":35, "ocupacion":"Periodista"}
+ 
+mi_dic["edad"] = 36
+mi_dic["ocupacion"] = "Editora"
+mi_dic["pais"] = "Colombia"
+Práctica Tuples 1
+
+mi_tupla = (1, 2, 3, 2, 3, 1, 3, 2, 3, 3, 3, 1, 3, 2, 2, 1, 3, 2)
+ 
+print(mi_tupla.count(2))
+Práctica Tuples 2
+
+mi_tupla = (1, 2, 3, 2, 3, 1, 3, 2)
+ 
+mi_lista = list(mi_tupla)
+Práctica Tuples 3
+
+mi_tupla = (1, 2, 3, 4)
+ 
+a, b, c, d = mi_tupla
+Práctica Sets 1
+
+mi_set_1 = {1, 2, "tres", "cuatro"}
+mi_set_2 = {"tres", 4, 5}
+mi_set_3 = mi_set_1.union(mi_set_2)
+Práctica Sets 2
+
+sorteo = {"Camila", "Margarita", "Axel", "Jorge", "Miguel", "Mónica"}
+sorteo.pop()
+Práctica Sets 3
+
+sorteo = {"Camila", "Margarita", "Axel", "Jorge", "Miguel", "Mónica"}
+sorteo.add("Damián")
+Práctica Booleanos 1
+
+prueba = 1 == 2
+Práctica Booleanos 2
+
+print((17834/34)>87*56)
+Práctica Booleanos 3
+
+print(25**0.5==5)
+
+---
+dia 4
+Práctica Operadores de Comparación 1
+
+num1 = 36
+num2 = 17
+mi_bool = num1 >= num2
+Práctica Operadores de Comparación 2
+
+num1 = 25**0.5
+num2 = 5
+mi_bool = num1 == num2
+Práctica Operadores de Comparación 3
+
+num1 = 64*3
+num2 = 24*8
+mi_bool = num1 != num2
+Práctica Operadores Lógicos 1
+
+num1 = 36
+num2 = 72/2
+num3 = 48
+ 
+ 
+mi_bool = num1 > num2 and num1 < num3
+Práctica Operadores Lógicos 2
+
+num1 = 36
+num2 = 72/2
+num3 = 48
+ 
+ 
+mi_bool = num1 > num2 or num1 < num3
+Práctica Operadores Lógicos 3
+
+frase = "Cuando algo es lo suficientemente importante, lo haces incluso si las probabilidades de que salga bien no te acompañan"
+palabra1 = "éxito"
+palabra2 = "tecnología"
+ 
+mi_bool = palabra1 not in frase and palabra2 not in frase
+Práctica Control de Flujo 1
+
+num1 = int(input("Ingresa un número:"))
+num2 = int(input("Ingresa otro número:"))
+ 
+if num1 > num2:
+    print(f"{num1} es mayor que {num2}")
+elif num2 > num1:
+    print(f"{num2} es mayor que {num1}")
+else:
+    print(f"{num1} y {num2} son iguales")
+Práctica Control de Flujo 2
+
+edad = 16
+tiene_licencia = False
+ 
+if edad >= 18 and tiene_licencia:
+    print("Puedes conducir")
+elif edad < 18:
+    print("No puedes conducir aún. Debes tener 18 años y contar con una licencia")
+else:
+    print("No puedes conducir. Necesitas contar con una licencia")
+Práctica Control de Flujo 3
+
+habla_ingles = True
+sabe_python = False
+ 
+if habla_ingles and sabe_python:
+    print("Cumples con los requisitos para postularte")
+elif (not habla_ingles) and (not sabe_python):
+    print("Para postularte, necesitas saber programar en Python y tener conocimientos de inglés")
+elif not habla_ingles:
+    print("Para postularte, necesitas tener conocimientos de inglés")
+else:
+    print("Para postularte, necesitas saber programar en Python")
+Práctica Loop For 1
+
+alumnos_clase = ["María", "José", "Carlos", "Martina", "Isabel", "Tomás", "Daniela"]
+ 
+for alumno in alumnos_clase:
+    print(f"Hola {alumno}")
+Práctica Loop For 2
+
+lista_numeros = [1,5,8,7,6,8,2,5,2,6,4,8,5,9,8,3,5,4,2,5,6,4]
+ 
+suma_numeros = 0
+ 
+for numero in lista_numeros:
+    suma_numeros = suma_numeros + numero
+Práctica Loop For 3
+
+lista_numeros = [1,5,8,7,6,8,2,5,2,6,4,8,5,9,8,3,5,4,2,5,6,4]
+ 
+suma_pares = 0
+ 
+suma_impares = 0
+ 
+for numero in lista_numeros:
+    if numero % 2 == 0:
+        suma_pares = suma_pares + numero
+    else:
+        suma_impares = suma_impares + numero
+Práctica Loop While 1
+
+numero = 10
+ 
+while numero >= 0:
+    print(numero)
+    numero -= 1
+Práctica Loop While 2
+
+numero = 50
+ 
+while numero >= 0:
+    if numero % 5 == 0:
+        print(numero)
+        numero -= 1
+    else:
+        numero -= 1
+Práctica Interrupción de Flujo
+
+lista_numeros = [4,5,8,7,6,9,8,2,4,5,7,1,9,5,6,-1,-5,6,-6,-4,-3]
+ 
+for numero in lista_numeros:
+    if numero >= 0:
+        print(numero)
+    else:
+        break
+Práctica Rango 1
+
+mi_lista = list(range(2500,2586))
+Práctica Rango 2
+
+mi_lista = list(range(3,301,3))
+Práctica Rango 3
+
+suma_cuadrados = 0
+ 
+for i in range(1,16):
+    suma_cuadrados += i**2
+Práctica Enumerador 1
+
+lista_nombres = ["Marcos", "Laura", "Mónica", "Javier", "Celina", "Marta", "Darío", "Emiliano", "Melisa"]
+ 
+for indice,nombre in enumerate(lista_nombres):
+    print(f'{nombre} se encuentra en el índice {indice}')
+Práctica Enumerador 2
+
+lista_indices = list(enumerate("Python"))
+Práctica Enumerador 3
+
+lista_nombres = ["Marcos", "Laura", "Mónica", "Javier", "Celina", "Marta", "Darío", "Emiliano", "Melisa"]
+ 
+for i, nombre in enumerate(lista_nombres):
+    if nombre[0] == "M":
+        print(i)
+Práctica Zip 1
+
+capitales = ["Berlín", "Tokio", "París", "Helsinki", "Ottawa", "Canberra"]
+paises = ["Alemania", "Japón", "Francia", "Finlandia", "Canadá", "Australia"]
+ 
+for pais, capital in zip(paises, capitales):
+    print(f"La capital de {pais} es {capital}")
+Práctica Zip 2
+
+marcas = ["Nike", "Lenovo", "Nissan"]
+productos = ["zapatillas", "notebook", "automóviles"]
+ 
+mi_zip = zip(marcas, productos)
+Práctica Zip 3
+
+espaniol = ["uno", "dos", "tres", "cuatro", "cinco"]
+portugues = ["um", "dois", "três", "quatro", "cinco"]
+ingles = ["one", "two", "three", "four", "five"]
+ 
+numeros = list(zip(espaniol, portugues, ingles))
+Práctica Min y Max 1
+
+lista_numeros = [44542247/2, 21310/5, 2134747*33, 44556475, 121676, 6654067, 353254, 123134, 55**12, 611**5]
+ 
+valor_maximo = max(lista_numeros)
+Práctica Min y Max 2
+
+lista_numeros = [44542247, 21310, 2134747, 44556475, 121676, 6654067, 353254, 123134, 552512, 611665]
+ 
+rango = max(lista_numeros) - min(lista_numeros)
+Práctica Min y Max 3
+
+diccionario_edades = {"Carlos":55, "María":42, "Mabel":78, "José":44, "Lucas":24, "Rocío":35, "Sebastián":19, "Catalina":2,"Darío":49}
+ 
+edad_minima = min(diccionario_edades.values())
+ultimo_nombre = max(diccionario_edades.keys())
+Práctica Random 1
+
+from random import randint
+ 
+aleatorio = randint(1,10)
+Práctica Random 2
+
+from random import *
+ 
+aleatorio = random()
+Práctica Random 3
+
+from random import *
+ 
+nombres = ["Carlos", "Julia", "Nicole", "Laura", "Mailen"]
+ 
+sorteo = choice(nombres)
+Práctica Comprensión de Listas 1
+
+valores = [1, 2, 3, 4, 5, 6, 9.5]
+ 
+valores_cuadrado = [valor**2 for valor in valores]
+Práctica Comprensión de Listas 2
+
+valores = [1, 2, 3, 4, 5, 6, 9.5]
+ 
+valores_pares = [valor for valor in valores if valor%2 == 0]
+Práctica Comprensión de Listas 3
+
+temperatura_fahrenheit = [32, 212, 275]
+ 
+grados_celsius = [(temperatura-32)*(5/9) for temperatura in temperatura_fahrenheit]
+
+----
+dia 5
+
+Práctica Métodos y Ayuda 1
+
+print(",:_#,,,,,,:::____##Pyt%on_ _Total,,,,,,::#".lstrip(",:%_#"))
+Práctica Métodos y Ayuda 2
+
+frutas = ["mango", "banana", "cereza", "ciruela", "pomelo"] 
+frutas.insert(3,"naranja")
+Práctica Métodos y Ayuda 3
+
+marcas_smartphones = {"Samsung", "Xiaomi", "Apple", "Huawei", "LG"}
+ 
+marcas_tv = {"Sony", "Philips", "Samsung", "LG"}
+ 
+conjuntos_aislados = marcas_tv.isdisjoint(marcas_smartphones)
+Práctica Crear Funciones 1
+
+def saludar():
+    print("¡Hola mundo!")
+Práctica Crear Funciones 2
+
+nombre_persona = "Luis"
+ 
+def bienvenida(nombre_persona):
+    print(f'¡Bienvenido {nombre_persona}!')
+Práctica Crear Funciones 3
+
+un_numero = 5
+ 
+def cuadrado(un_numero):
+    print(un_numero**2)
+Práctica Return 1
+
+def potencia(num1, num2):
+    return num1**num2
+Práctica Return 2
+
+dolares = 1200
+ 
+def usd_a_eur(dolares):
+    return dolares*0.90
+Práctica Return 3
+
+palabra = "Curso de Python"
+ 
+def invertir_palabra(palabra):
+    palabra = palabra[::-1]
+    palabra = palabra.upper()
+    return palabra
+Práctica Funciones Dinámicas 1
+
+lista_numeros = [1,-50,502,-5000,755,600,33,61]
+ 
+def todos_positivos(lista_numeros):
+    for numero in lista_numeros:
+        if numero < 0:
+            return False
+        else:
+            pass
+    return True
+Práctica Funciones Dinámicas 2
+
+lista_numeros = [1,50,500,5000,750,600]
+ 
+def suma_menores(lista_numeros):
+    suma=0
+    for numero in lista_numeros:
+        if numero in range(1,1000):
+            suma += numero
+        else:
+            pass
+    return suma
+Práctica Funciones Dinámicas 3
+
+lista_numeros = [1,50,502,5000,755,600,33,61]
+ 
+def cantidad_pares(lista_numeros):
+    cantidad=0
+    for numero in lista_numeros:
+        if numero % 2 == 0:
+            cantidad += 1
+        else:
+            pass
+    return cantidad
+Práctica sobre Interacción entre Funciones 1
+
+import random
+ 
+def lanzar_dados():
+    return random.randint(1,6), random.randint(1,6)
+ 
+def evaluar_jugada(dado1, dado2):
+    suma_dados = dado1 + dado2
+    if suma_dados <= 6:
+        return f"La suma de tus dados es {suma_dados}. Lamentable"
+    elif suma_dados > 6 and suma_dados < 10:
+        return f"La suma de tus dados es {suma_dados}. Tienes buenas chances"
+    else:
+        return f"La suma de tus dados es {suma_dados}. Parece una jugada ganadora"
+Práctica sobre Interacción entre Funciones 2
+
+lista_numeros = [1,2,15,7,2,8]
+ 
+def reducir_lista(lista):
+    lista = list(set(lista))
+    lista.sort()
+    lista.pop(-1)
+    return lista
+ 
+def promedio(lista):
+    valor_medio = sum(lista)/len(lista)
+    return valor_medio
+Práctica sobre Interacción entre Funciones 3
+
+lista_numeros = [1,2,15,7,2,8]
+ 
+import random
+ 
+def lanzar_moneda():
+    resultado = random.choice(["Cara", "Cruz"])
+    return resultado
+ 
+def probar_suerte(moneda, lista):
+    if moneda == "Cara":
+        print("La lista se autodestruirá")
+        return []
+    elif moneda == "Cruz":
+        print("La lista fue salvada")
+        return lista
+Práctica sobre Argumentos Indefinidos (*args) 1
+
+def suma_cuadrados(*args):
+    suma = 0
+    for arg in args:
+        suma += arg**2
+    
+    return suma
+Práctica sobre Argumentos Indefinidos (*args) 2
+
+def suma_absolutos(*args):
+    suma = 0
+    for arg in args:
+        suma += abs(arg)
+    
+    return suma
+Práctica sobre Argumentos Indefinidos (*args) 3
+
+def numeros_persona(nombre, *args):
+    suma_numeros = sum(args)
+    return f'{nombre}, la suma de tus números es {suma_numeros}'
+Práctica sobre Argumentos Indefinidos (*kwargs) 1
+
+def cantidad_atributos(**kwargs):
+    cantidad = 0
+    for clave in kwargs.items():
+        cantidad += 1
+    return cantidad
+Práctica sobre Argumentos Indefinidos (*kwargs) 2
+
+def lista_atributos(**kwargs):
+    lista = []
+    for valor in kwargs.values():
+        lista.append(valor)
+    return lista
+Práctica sobre Argumentos Indefinidos (*kwargs) 3
+
+def describir_persona(nombre, **kwargs):
+    print(f"Características de {nombre}:")
+    for clave, valor in kwargs.items():
+        print(f'{clave}: {valor}')
+--------------------
+dia 6
+
+Práctica Abrir y Manipular Archivos 1
+
+archivo = open("texto.txt")
+print(archivo.read())
+Práctica Abrir y Manipular Archivos 2
+
+mi_archivo = open("texto.txt")
+print(mi_archivo.readline())
+Práctica Abrir y Manipular Archivos 3
+
+archivo = open("texto.txt")
+lineas = archivo.readlines()
+print(lineas[1])
+ 
+# Alternativa de solución admitida:
+# lineas = archivo.readline()
+# lineas = archivo.readline()
+# print(lineas)
+Práctica Crear y Escribir Archivos 1
+
+archivo = open("mi_archivo.txt", "w")
+archivo.write("Nuevo texto")
+archivo.close()
+archivo = open("mi_archivo.txt", "r")
+print(archivo.read())
+Práctica Crear y Escribir Archivos 2
+
+archivo = open("mi_archivo.txt","a")
+archivo.write("Nuevo inicio de sesión")
+archivo.close()
+archivo = open("mi_archivo.txt", "r")
+print(archivo.read())
+Práctica Crear y Escribir Archivos 3
+
+registro_ultima_sesion = ["Federico", "20/12/2021", "08:17:32 hs", "Sin errores de carga"]
+ 
+registro = open("registro.txt","a")
+for item in registro_ultima_sesion:
+    registro.writelines(item +'\t')
+ 
+registro.close()
+registro = open("registro.txt","r")
+print(registro.read())
+Práctica Path 1
+
+from pathlib import Path
+ 
+ruta_base = Path.home()
+Práctica Path 2
+
+from pathlib import Path
+ 
+ruta = Path("Curso Python","Día 6","practicas_path.py")
+Práctica Path 3
+
+from pathlib import Path
+ 
+ruta = Path(Path.home(), "Curso Python","Día 6","practicas_path.py")
+Práctica Archivos y Funciones 1
+
+def abrir_leer(archivo):
+    archivo = open(archivo)
+    return archivo.read()
+Práctica Archivos y Funciones 2
+
+def sobrescribir(archivo):
+    archivo_sobrescribir = open(archivo, "w")
+    archivo_sobrescribir.write("contenido eliminado")
+Práctica Archivos y Funciones 3
+
+def registro_error(archivo):
+    mi_archivo = open(archivo, "a")
+    mi_archivo.write("se ha registrado un error de ejecución")
+    mi_archivo.close()
+
+
+Dia 7
+---
+
+Práctica Clases 1
+
+class Personaje:
+    pass
+ 
+harry_potter = Personaje()
+Práctica Clases 2
+
+class Dinosaurio:
+    pass
+ 
+velociraptor = Dinosaurio()
+tiranousaurio_rex = Dinosaurio()
+braquiosaurio = Dinosaurio()
+Práctica Clases 3
+
+class PlataformaStreaming:
+    pass
+ 
+netflix = PlataformaStreaming()
+hbo_max = PlataformaStreaming()
+amazon_prime_video = PlataformaStreaming()
+Práctica Atributos 1
+
+class Casa:
+    def __init__(self, color, cantidad_pisos):
+        self.color = color
+        self.cantidad_pisos = cantidad_pisos
+    
+casa_blanca = Casa("blanco", 4)
+Práctica Atributos 2
+
+class Cubo:
+    caras = 6
+    def __init__(self,color):
+        self.color = color
+        
+cubo_rojo = Cubo("rojo")
+Práctica Atributos 3
+
+class Personaje:
+    real = False
+    
+    def __init__(self, especie, magico, edad):
+        self.especie = especie
+        self.magico = magico
+        self.edad = edad
+ 
+harry_potter = Personaje("humano", True, 17)
+Práctica Métodos 1
+
+class Perro:
+    def ladrar(self):
+        print("Guau!")
+    
+pluto = Perro()
+pluto.ladrar()
+Práctica Métodos 2
+
+class Mago:
+    def lanzar_hechizo(self):
+        print("¡Abracadabra!")
+    
+merlin = Mago()
+merlin.lanzar_hechizo()
+Práctica Métodos 3
+
+class Alarma:
+    def postergar(self,cantidad_minutos):
+        print(f"La alarma ha sido pospuesta {cantidad_minutos} minutos")
+Práctica Tipos de Métodos 1
+
+class Mascota:
+    @staticmethod
+    def respirar():
+        print("Inhalar... Exhalar")
+Práctica Tipos de Métodos 2
+
+class Jugador:
+    vivo = False
+    
+    @classmethod
+    def revivir(cls):
+        cls.vivo = True
+Práctica Tipos de Métodos 3
+
+class Personaje:
+    def __init__(self, cantidad_flechas):
+        self.cantidad_flechas = cantidad_flechas
+        
+    def lanzar_flecha(self):
+        self.cantidad_flechas = self.cantidad_flechas-1
+Práctica Herencia 1
+
+class Persona:
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+ 
+class Alumno(Persona):
+    pass
+Práctica Herencia 2
+
+class Mascota:
+    def __init__(self, edad, nombre, cantidad_patas):
+        self.edad = edad
+        self.nombre = nombre
+        self.cantidad_patas = cantidad_patas
+ 
+class Perro(Mascota):
+    pass
+ 
+teo = Perro(6,"Teo",4)
+Práctica Herencia 3
+
+class Vehiculo:
+    def acelerar(self):
+        pass
+    def frenar(self):
+        pass
+    
+class Automovil(Vehiculo):
+    pass
+Práctica Herencia Extendida 1
+
+class Padre():
+    def trabajar(self):
+        print("Trabajando en el Hospital")
+ 
+    def reir(self):
+        print("Ja ja ja!")
+ 
+class Madre():
+    def trabajar(self):
+        print("Trabajando en la Fiscalía")
+        
+class Hija(Madre, Padre):
+    pass
+Práctica Herencia Extendida 2
+
+class Vertebrado():
+    vertebrado = True
+ 
+class Ave(Vertebrado):
+    tiene_pico = True
+    def poner_huevos(self):
+        print("Poniendo huevos")
+ 
+class Reptil(Vertebrado):
+    venenoso = True
+ 
+class Pez(Vertebrado):
+    def nadar(self):
+        print("Nadando")
+    def poner_huevos(self):
+        print("Poniendo huevos")
+ 
+class Mamifero(Vertebrado):
+    def caminar(self):
+        print("Caminando")
+    def amamantar(self):
+        print("Amamantando crías")
+ 
+class Ornitorrinco(Mamifero, Pez, Reptil, Ave):
+    pass
+Práctica Herencia Extendida 3
+
+class Padre():
+    color_ojos = "marrón"
+    tipo_pelo = "rulos"
+    altura = "media"
+    voz = "grave"
+    deporte_preferido = "tenis"
+    def reir(self):
+        return "Jajaja"
+    def hobby(self):
+        return "Pinto madera en mi tiempo libre"
+    def caminar(self):
+        return "Caminando con pasos largos y rápidos"
+    
+class Hijo(Padre):
+    def hobby(self):
+        return "Juego videojuegos en mi tiempo libre"
+Práctica Polimorfismo 1
+
+palabra = "polimorfismo"
+lista = ["Clases", "POO", "Polimorfismo"]
+tupla = (1, 2, 3, 80)
+ 
+for dato in [palabra, lista, tupla]:
+    print(len(dato))
+Práctica Polimorfismo 2
+
+class Mago():
+    def atacar(self):
+        print("Ataque mágico")
+ 
+class Arquero():
+    def atacar(self):
+        print("Lanzamiento de flecha")
+ 
+class Samurai():
+    def atacar(self):
+        print("Ataque con katana")
+        
+gandalf = Mago()
+hawkeye = Arquero()
+jack = Samurai()
+ 
+personajes = [hawkeye, gandalf, jack]
+ 
+for personaje in personajes:
+    personaje.atacar()
+Práctica Polimorfismo 3
+
+class Mago():
+    def defender(self):
+        print("Escudo mágico")
+ 
+class Arquero():
+    def defender(self):
+        print("Esconderse")
+ 
+class Samurai():
+    def defender(self):
+        print("Bloqueo")
+ 
+def personaje_defender(personaje):
+    personaje.defender()
+Práctica Métodos Especiales 1
+
+class Libro():
+    def __init__(self, titulo, autor, cantidad_paginas):
+        self.titulo = titulo
+        self.autor = autor
+        self.cantidad_paginas = cantidad_paginas
+ 
+    def __str__(self):
+        return f'"{self.titulo}", de {self.autor}'
+Práctica Métodos Especiales 2
+
+class Libro():
+    def __init__(self, titulo, autor, cantidad_paginas):
+        self.titulo = titulo
+        self.autor = autor
+        self.cantidad_paginas = cantidad_paginas
+ 
+    def __len__(self):
+        return self.cantidad_paginas
+Práctica Métodos Especiales 3
+
+class Libro():
+    def __init__(self, titulo, autor, cantidad_paginas):
+        self.titulo = titulo
+        self.autor = autor
+        self.cantidad_paginas = cantidad_paginas
+ 
+    def __del__(self):
+        print(f'Libro eliminado')
+
+
+Dia 8
+-----
+Práctica Manejo de Errores 1
+
+def suma(num1,num2):
+    try:
+        print(num1+num2)
+    except:
+        print("Error inesperado")
+Práctica Manejo de Errores 2
+
+def cociente(num1,num2):
+    try:
+        print(num1/num2)
+    except TypeError:
+        print("Los argumentos a ingresar deben ser números")
+    except ZeroDivisionError:
+        print("El segundo argumento no debe ser cero")
+Práctica Manejo de Errores 3
+
+def abrir_archivo(nombre_archivo):
+    try:
+        archivo = open(nombre_archivo)
+    except FileNotFoundError:
+        print("El archivo no fue encontrado")
+    except:
+        print("Error desconocido")
+    else:
+        print("Abriendo exitosamente")
+    finally:
+        print("Finalizando ejecución")
+Práctica Generadores 1
+
+def secuencia_infinita():
+    num = 0
+    while True:
+        num += 1
+        yield num
+ 
+generador = secuencia_infinita()
+Práctica Generadores 2
+
+def multiplos_siete():
+    num = 1
+    while True:
+        yield 7*num
+        num += 1
+ 
+generador = multiplos_siete()
+Práctica Generadores 3
+
+def mensaje():
+    x = "Te quedan 3 vidas"
+    yield x
+    
+    x = "Te quedan 2 vidas"
+    yield x
+ 
+    x = "Te queda 1 vida"
+    yield x
+    
+    x = "Game Over"
+    yield x
+ 
+perder_vida = mensaje()
+
+---
+Dia 9
+
+Práctica Módulo Collections 1
+
+from collections import Counter
+ 
+lista = [1, 2, 3, 6, 7, 1, 2, 4, 5, 5, 5, 5, 3, 2, 6, 7]
+ 
+contador = Counter(lista)
+Práctica Módulo Collections 2
+
+from collections import defaultdict
+ 
+mi_diccionario = defaultdict(lambda:"Valor no hallado")
+mi_diccionario["edad"] = 44
+Práctica Módulo Collections 3
+
+from collections import deque
+ 
+lista_ciudades= deque(["Londres", "Berlin", "París", "Madrid", "Roma", "Moscú"])
+Práctica Módulo Datetime 1
+
+from datetime import date
+ 
+mi_fecha = date(1999, 2, 3)
+Práctica Módulo Datetime 2
+
+from datetime import date
+ 
+hoy = date.today()
+Práctica Módulo Datetime 3
+
+from datetime import datetime
+ 
+minutos = datetime.now().minute
+Práctica Módulo Math 1
+
+import math
+ 
+resultado = math.log10(25)
+Práctica Módulo Math 2
+
+import math
+ 
+resultado = math.sqrt(math.pi)
+Práctica Módulo Math 3
+
+import math
+ 
+resultado = math.factorial(7)
+Práctica Módulo RE 1
+
+import re
+ 
+def verificar_email(email):
+    patron = r'@\w+\.com'
+    verificar = re.search(patron,email)
+    if verificar:
+        print("Ok")
+    else:
+        print("La dirección de email es incorrecta")
+Práctica Módulo RE 2
+
+import re
+ 
+def verificar_saludo(frase):
+    patron = r'^Hola'
+    verificar = re.search(patron,frase)
+    if verificar:
+        print("Ok")
+    else:
+        print("No has saludado")
+Práctica Módulo RE 3
+
+import re
+ 
+def verificar_cp(cp):
+    patron = r'\w{2}\d{4}'
+    verificar = re.search(patron,cp)
+    if verificar:
+        print("Ok")
+    else:
+        print("El código postal ingresado no es correcto")
+
+
+---
+p{
+	color: rojo;
+	font-family: verdana;
+	font-size: 80%
+}
+
+#est{
+	color: verde;
+}
+
+.mi_clase{
+	color: azul;
+	font-family: arial;
+}
+
+pip install beautifulsoup4
+pip install lxml
+pip install requests
+
+pip install dlib == 20.0.0
+
+
+numpy - numeros
+
+pandas - analisis de dataset
+ 
+matplotlib - Graficos en python
+
+virtualenv {NombreProyecto}
+ACTIVAR AMBIENTE
+.\{NombreProyecto}\Scripts\activate
+DESACTIVAR AMBIENTE
+deactivate
+
+virtualenv p1
+.\p1\Scripts\activate
+deactivate
+.\p2\Scripts\activate
+deactivate
+.\p3\Scripts\activate
+deactivate
+
+virtualenv web
+.\web\Scripts\activate
+pip install django
+mkdir src
+cd src
+django-admin startproject proyecto
+cd proyecto
+
+python manage.py runserver
+127.0.0.1:8000
+
+python manage.py runserver http://127.0.0.1:8080/
+python manage.py migrate -- ojo
+python manage.py createsuperuser
+python manage.py runserver http://127.0.0.1:8080/
+admin/password
+
+
+Creacion App
+Nucleo del codigo
+python manage.py startapp base
+Y se crea la carpeta base -- Aplicacion
+
+Se tiene la carpeta base
+Se tiene la carpeta proyecto
+y no se conocen para conectarnos
+ir a settings
+agregar en INSTALLED_APPS
+ 'base.apps.BaseConfig',
+
+ahora hay que conectar las url
+en la Carpeta base no hay archivo url 
+crear archivo urls.py
+from django.urls import path
+from .import views
+
+urlpatterns = [path('',views.lista_pendientes,name='pendientes')]
+
+en el archivo views
+from django.http import HttpResponse
+
+def lista_pendientes(pedido):
+    return HttpResponse("Lista de Pendientes")
+
+
+en Carpeta Proyecto archivo url
+agregar en urlpatterns
+
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls), -- esto ya estaba
+    path('',include('base.urls')), -- esto es lo nuevo
+]
+
+Refrescar el sitio y debe regresar la palabras
+Lista de Pendientes
+
+control C detiene la ejecucion del server
+
+Crear Tabla de Tareas
+
+Se crean en la carpeta base
+en el archivo models.py
+
+tablas en django
+cada clase dentro de modelo sera una tabla
+y las columnas son campos
+Crear la clase Tarea
+
+from django.db import models
+from django.contrib.auth.models import User
+
+class Tarea(models.Model):
+    usuario = models.ForeignKey(User,
+                                on_delete=models.CASCADE,
+                                null=True, -- puede estar vacio
+                                blank=True -- este registro puede estar en blanco
+								)
+    titulo = models.CharField(max_length=200)
+    descripcion = models.TextField(null=True,
+                                   blank=True)
+    completo = models.BooleanField(default=False)
+    creado = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.titulo
+
+    class Meta:
+        ordering = ['completo']
+
+
+
+migracion
+enviar la tabla a la base de datos del sitio
+
+En la consola
+python manage.py makemigrations
+se crea la carpeta migrations
+ahora para migrarla al Sitio
+python manage.py migrate
+
+
+volver a lanzar la ejecucion del server y validar la tabla
+
+ir a la carpeta base
+en el archivo admin para registrar la tabla
+
+from django.contrib import admin
+from .models import Tarea
+
+admin.site.register(Tarea)
+
+volver a lanzar la ejecucion del server y validar la tabla
+
+En la pantalla de administracion agregar dos o tres tareas
+
+ahora en la Carpeta base
+
+archivo views
+from django.views.generic.list import ListView
+
+el list es atra vez de una consulta presentar datos ordenados
+agregar ListaPendientes(ListView):
+	model = Tarea
+
+en la carpeta base
+en el archivo url
+
+modificar
+from django.urls import path
+#from .import views
+from .views import ListaPendientes
+
+urlpatterns = [path('',ListaPendientes.as_view(),name='pendientes')]
+
+
+agregar carpeta templates dentro 
+de carpeta base dentro de esta
+crear archivo tarea_list.html
+
+En Carpeta Proyecto
+configurar archivo settings 
+en entiqueta TEMPLATES
+agregar
+'DIRS': ['C:\\Users\\mrosas2\\PycharmProjects\\Mis_entornos\\mi_web\\src\\proyecto\\base\\templates'],
+
+actualizar la pagina
+
+ahora agregamos los datos en el tarea_list.html
+actualizar la pagina
+se debe mostrar la lista de las tareas capturadas
+
+ahora agregar un nuevo archivo tarea_detail.html
+configurar en carpeta base archivo views
+from django.views.generic.detail import DetailView
+
+class DetalleTarea(DetailView):
+    model = Tarea
+
+y en el archivo urls
+agregar
+path('tarea/<int:pk>',DetalleTarea.as_view(),name='tarea')
+
+actualizar explorardor
+http://127.0.0.1:8080/tarea/1
+http://127.0.0.1:8080/tarea/2
+http://127.0.0.1:8080/tarea/3
+
+para cambiar nombre
+hacer rename en la tarea_detail.html
+y modificar en views la clase DetalleTarea agregando
+template_name = 'tarea'
+actualizar la pagina
+
+modificamos el archivo tarea_list.html
+agregar
+<td><a href="{% url 'tarea' tarea.id %}">Ver</a></td>
+agregar encabezado en la tabla
+
+<th></th> -- dejar en blanco
+
+ahora regresamos a la carpeta base archivo view
+agregar
+
+from django.views.generic.edit import CreateView
+
+class CrearTarea(CreateView):
+
+y en el archivo urls
+agregar
+CrearTarea
+from .views import ListaPendientes, DetalleTarea, CrearTarea
+path('crear - tarea/',CrearTarea.as_view(),name='crear - tarea')
+
+creamos el archivo tarea_form.html
+<h1> Formulario de Tareas </h1>
+
+ir a carpeta base
+archivo views y agregar UpdateView
+
+from django.views.generic.edit import CreateView, UpdateView
+
+la clase
+
+class EditarTarea(UpdateView):
+    model = Tarea
+    fields = '__all__'
+    success_url = reverse_lazy('tareas')
+	
+
+y en el archivo urls
+agregar
+EditarTarea
+from .views import ListaPendientes, DetalleTarea, CrearTarea, EditarTarea
+path('editar-tarea/<int:pk>',EditarTarea.as_view(),name='editar-tarea'),
+
+en archivo tarea_list.html
+agregar
+
+<td><a href="{% url 'editar-tarea' tarea.id %}">Editar</a></td>
+
+y
+
+<th></th> para la columna
+
+
+ir a carpeta base
+archivo views y agregar UpdateView
+
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
+
+la clase
+
+class EliminarTarea(DeleteView):
+    model = Tarea
+    context_object_name = 'tarea'
+    success_url = reverse_lazy('tareas')
+	
+
+y en el archivo urls
+agregar
+EliminarTarea
+from .views import ListaPendientes, DetalleTarea, CrearTarea, EditarTarea, EliminarTarea
+path('eliminar-tarea/<int:pk>',EliminarTarea.as_view(),name='eliminar-tarea'),]
+
+en archivo tarea_list.html
+agregar
+<td><a href="{% url 'eliminar-tarea' tarea.id %}">Eliminar</a></td>
+
+y
+
+<th></th> para la columna
+
+en archivo tarea_list.html
+agregar antes del <h1>Lista de Pendientes</h1>
+
+{% if request.user.is_authenticated %}
+    <p>{{request.user}}</p>
+    <a href="">Salir</a>
+{% else %}
+    <a href="">Ingresar</a>
+{% endif %}
+<hr>
+
+en carpeta base
+archivo views
+
+agregar
+from django.contrib.auth.views import LoginView
+
+clase
+class Logueo(LoginView):
+    template_name = 'base/login.html'
+    field = '__all__'
+    redirect_authenticated_user = True
+
+    def get_success_url(self):
+        return reverse_lazy('tareas')
+
+		
+
+y en el archivo urls
+agregar
+  Logueo
+from .views import ListaPendientes, DetalleTarea, CrearTarea, EditarTarea, EliminarTarea, Logueo 
+path('login/',Logueo.as_view(), name ='login'),
+
+ahora agregar archivo login.html
+<h1>Ingresar</h1>
+
+
+ahora logout
+en la carpeta base
+archivo views
+agregar
+from django.shortcuts import render, redirect
+from django.views import View
+
+from django.contrib.auth import logout
+
+
+
+y clase
+class LogoutView(View):
+    def get(self, request):
+        logout(request)
+        return redirect('login')
+
+en carpeta base
+archivo url
+agregar
+from django.urls import path
+from . import views
+
+path('logout/', views.LogoutView.as_view(), name='logout'),
+
+para bloquear paginas
+en carpeta base
+archivo views
+from django.contrib.auth.mixins import LoginRequiredMixin
+
+en la clase
+class ListaPendientes(LoginRequiredMixin, ListView):
+    model = Tarea
+    context_object_name = 'tareas'
+	
+ahora agregar 	en carpeta Proyecto
+archivo settings
+
+LOGIN_URL = 'login'
+
+creamos en admin al usuario pedro
+
+ahora en la carpeta base
+archivo views
+modificamos la clase ListaPendientes
+agregamos metodo
+ def get_context_data(self, *, object_list=None, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['tareas'] = context['tareas'].filter(usuario=self.request.user)
+        context['count'] = context['tareas'].filter(completo=False).count()
+        return context
+
+y en la clase CrearTarea
+modificamos
+#fields = '__all__'
+    fields = ['titulo','descripcion','completo']
+
+y en la clase EditarTarea	
+#fields = '__all__'
+    fields = ['titulo', 'descripcion', 'completo']
+
+modificar el archivo login.html
+y agregar
+<p>No tienes una cuenta <a href="">Registrate</a></p>
+
+crear archivo registro.html
+copiar lo mismo que login.html
+y modificar
+<h1>Registrarse</h1>
+
+<form method="POST">
+
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="Registrar">
+</form>
+<p>Ya tienes una cuenta <a href="{% url 'login' %}">Ingresa</a></p>
+
+en carpeta base
+archivo views
+agregar
+FormView
+from django.views.generic.edit import CreateView, UpdateView, DeleteView, FormView
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth import login
+
+y la clase 
+PaginaRegistro
+class PaginaRegistro(FormView):
+    template_name = 'base/registro.html'
+    form_class = UserCreationForm
+    redirect_authenticated_user = True
+    success_url = reverse_lazy('tareas')
+	
+en la carpeta base
+archivo url
+agregar
+PaginaRegistro
+
+from .views import ListaPendientes, DetalleTarea, CrearTarea, EditarTarea, EliminarTarea, Logueo, PaginaRegistro	
+
+y el path
+
+path('registro/',PaginaRegistro.as_view(), name ='registro'),
+
+en el archivo login.html
+modificar
+href
+<p>No tienes una cuenta <a href="{% url 'registro' %}">Registrate</a></p>
+
+Ahora validar el link Registrate
+aparece todo en ingles
+
+para modificar
+entrar a carpeta Proyecto
+archivo Settings
+modificar
+LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es-mx'
+
+
+ahora agregar 
+a la clase
+PaginaRegistro el metodo
+
+ def form_valid(self, form):
+        usuario=form.save()
+        login(self.request,usuario)
+        return super(PaginaRegistro,self).form_valid(form)
+
+ def get(self, *args, **kwargs):
+       if self.request.user.is_authenticaded:
+            return redirect('tareas')
+        return super(PaginaRegistro, self).get(*args,**kwargs)		
+		
+
+ahora en archivo tarea_list.html
+agregar
+
+<form method="GET">
+    <input type="text" name="area-buscar">
+    <input type="submit" value="Buscar">
+</form>		
+
+refrescar el sitio para ver la casilla y el boton Buscar
+
+ahora ir a la carpeta base
+archivo views
+
+en la clase ListaPendientes
+
+modificar el metodo
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['tareas'] = context['tareas'].filter(usuario=self.request.user)
+        context['count'] = context['tareas'].filter(completo=False).count()
+
+        valor_buscado=self.request.GET.get('area-buscar') or ''
+        if valor_buscado:
+            context['tareas'] = context['tareas'].filter(titulo__icontains=valor_buscado)
+        context['valor_buscado'] = valor_buscado
+        return context
+		
+y en el archivo tarea_list.html
+agregar
+value
+<input type="text" name="area-buscar" value="{{valor_buscado}}">		
