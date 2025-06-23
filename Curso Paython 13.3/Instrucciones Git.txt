@@ -1,4 +1,5 @@
 https://rogerdudler.github.io/git-guide/index.es.html
+https://git-scm.com/docs/user-manual
 
 Puedes registrar cambios (añadirlos al Index) usando
 add & commit
